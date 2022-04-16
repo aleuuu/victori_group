@@ -1,0 +1,168 @@
+.container{
+    width: 45vw;
+    background: transparent;
+    .transpanent_block{
+        background: transparent;
+        height: 100px;
+        width: 100%;
+    }
+    .header{
+        font-size: 25px;
+        font-weight: 700;
+        color: rgb(66, 66, 66);
+    }
+    .text_container{
+        padding: 70px 0;
+        color: rgb(66, 66, 66);
+        #margin{
+            margin: 100px 0;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 90px 0 120px;
+            .send{
+                display: flex;
+                justify-content: space-between;
+                width: 80%;
+                .text{
+                    display: flex;
+                    flex-direction: column;
+                    width: 60%;
+                    padding-right: 70px;
+                    h2{
+                        color: rgb(41, 41, 41);
+                    }
+                    p{
+                        margin: 0;
+                        padding: 0;
+                        font-weight: 400;
+                        margin-top: 10px;
+                        font-size: calc(6px + 1vh);
+                        text-align: left;
+                    }
+                    
+                }
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    width: 40%;
+                    padding: 15px 0;
+                    input{
+                        border: 1.9px solid rgb(114, 114, 114);
+                        box-sizing: border-box;
+                        width: 100%;
+                        height: 32px;
+                        margin: 6px 0;
+                        padding-left: 8px;
+                        display: flex;
+                        align-items: center;
+                        &::placeholder {
+                            color: rgb(58, 58, 58);
+                            font-weight: 600;
+                            font-size: 12px;
+                        }
+                    }
+                    textarea{
+                        border: 1.9px solid rgb(114, 114, 114);
+                        box-sizing: border-box;
+                        min-width: 100%;
+                        max-width: 100%;
+                        max-height: 340px;
+                        min-height: 150px;
+                        margin: 6px 0;
+                        padding-left: 8px;
+                        padding-top: 8px;
+                        display: flex;
+                        align-items: center;
+                        &::placeholder {
+                            color: rgb(58, 58, 58);
+                            font-weight: 600;
+                            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            font-size: 13px;
+                        }
+                    }
+                    button{
+                        background: black;
+                        color: white;
+                        height: 32px;
+                        width: 100px;
+                        margin: 7px 0;
+                        border: none;
+                    }
+                }
+            }
+            p{
+                text-align: center;
+                font-size: calc(11px + 2vh);
+                font-weight: 600;
+            }
+            .line{
+                width: 100px;
+                height: 10px;
+            }
+        }
+        .photo{
+            width: 100%;
+            height: 450px;
+            margin: 50px 0;
+            border-radius: 10px;
+            object-fit: cover;
+            transition: ease-in-out 0.5s,
+        }
+        .title{
+            font-size: calc(6px + 1vh);
+        }
+        .row{
+            margin-top: 120px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .left{
+                width: 60%;
+                video{
+                    width: 100%;
+                    border-radius: 10px;
+                    border: none;
+                    margin-bottom: 100px;
+                }
+            }
+            .right{
+                width: 35%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                #diadoc{
+                    width: 55%;
+                }
+                #diadoc_p {
+                    margin-top: 0;
+                    padding-left: 10px;
+                    margin-bottom: 5px;
+                }
+                img{
+                    width: 50%;
+                    margin: 0;
+                    height: auto;
+                    object-fit: contain;
+                }
+                p{
+                    margin-top: 15px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }   
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .container{
+      width: 65vw;
+    }
+    .photo{
+        height: 300px!important;
+    }
+}
