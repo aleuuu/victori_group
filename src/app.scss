@@ -67,3 +67,45 @@ code {
     left: 7%!important;
   }
 }
+@media screen and (min-width: 350px) and (max-width: 900px) {
+  body{
+    background:rgb(245, 245, 245)
+  }
+  .menu{
+    display: flex;
+    z-index: 900;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    position: fixed;
+    bottom: 0 !important;
+    width: 100vw;
+    transition: ease-in-out 0.4s;
+    left: 0%!important;
+    height: 40px !important;
+    padding-top: 5px;
+    background: white !important;
+    border-radius: 10px 10px 0;
+    img{
+      padding-bottom: 0 !important;
+    }
+  }
+  input{
+    background: transparent !important;
+  }
+  textarea{
+    background: transparent !important;
+  }
+  .center{
+    margin: 40px 0 !important;
+  }
+  .contact{
+    margin-top: 30px !important;
+  }
+  .header{
+    font-size: 19px !important;
+  }
+  .text_container{
+    padding-top: 20px !important;
+  }
+}
