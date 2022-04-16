@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/victori_group/static/css/main.8f553382.css",
-    "main.js": "/victori_group/static/js/main.0921c0dc.js",
+    "main.css": "/victori_group/static/css/main.387b509e.css",
+    "main.js": "/victori_group/static/js/main.33bd954b.js",
     "static/js/787.d4ddb485.chunk.js": "/victori_group/static/js/787.d4ddb485.chunk.js",
     "static/media/Группа Компаний _Виктори_ г. Тольятти.mp4": "/victori_group/static/media/Группа Компаний _Виктори_ г. Тольятти.9b57c9d520a06da39a2b.mp4",
     "static/media/lcv_4-medium.jpg": "/victori_group/static/media/lcv_4-medium.47507495f1cd94557f71.jpg",
     "static/media/slider-01-1.jpg": "/victori_group/static/media/slider-01-1.635d4bc50f4af18e885b.jpg",
+    "static/media/vacancy.svg": "/victori_group/static/media/vacancy.93fb60eefac4273b75ce6a061696ba4a.svg",
+    "static/media/group.svg": "/victori_group/static/media/group.3a2f550a22249fedf3e815954515caa7.svg",
     "index.html": "/victori_group/index.html",
+    "static/media/phone.svg": "/victori_group/static/media/phone.26d6f965006fd0b8f878d8fd5c4f1ffc.svg",
+    "static/media/info.svg": "/victori_group/static/media/info.e04552fc69789894ea5cd512854d2c2f.svg",
     "static/media/line.svg": "/victori_group/static/media/line.0722ccbc5bb6e035825f802319981221.svg",
-    "main.8f553382.css.map": "/victori_group/static/css/main.8f553382.css.map",
-    "main.0921c0dc.js.map": "/victori_group/static/js/main.0921c0dc.js.map",
+    "main.387b509e.css.map": "/victori_group/static/css/main.387b509e.css.map",
+    "main.33bd954b.js.map": "/victori_group/static/js/main.33bd954b.js.map",
     "787.d4ddb485.chunk.js.map": "/victori_group/static/js/787.d4ddb485.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f553382.css",
-    "static/js/main.0921c0dc.js"
+    "static/css/main.387b509e.css",
+    "static/js/main.33bd954b.js"
   ]
 }
