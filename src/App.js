@@ -20,31 +20,31 @@ function App() {
     <Router>
         <div className="column">
           <div className="menu">
-              <Link to="/">
+              <Link to="/victori_group/">
                   <img src={Info} alt=""/>
               </Link>
-              <Link to="/group">
+              <Link to="/victori_group/group">
                   <img src={Group} alt=""/>
               </Link>
-              <Link to="/vacancy">
+              <Link to="/victori_group/vacancy">
                   <img src={Job} alt=""/>
               </Link>
-              <Link to="/contacts">
+              <Link to="/victori_group/contacts">
                   <img src={Contact} alt=""/>
               </Link>
           </div>
         </div>
         <Routes>
-          <Route path="/contacts" element={Contacts}></Route>
+          <Route path="/victori_group/contacts" element={Contacts}></Route>
         </Routes>
         <Routes>
-          <Route path="/vacancy" element={Vacancy}></Route>
+          <Route path="/victori_group/vacancy" element={Vacancy}></Route>
         </Routes>
         <Routes>
-          <Route path="/group" element={Groups}></Route>
+          <Route path="/victori_group/group" element={Groups}></Route>
         </Routes>
         <Routes>
-          <Route path="/" element={MainPage}></Route>
+          <Route path="/victori_group/" element={MainPage}></Route>
         </Routes>
     </Router>
   );
