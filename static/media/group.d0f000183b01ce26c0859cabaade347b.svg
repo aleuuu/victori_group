@@ -3,10 +3,14 @@
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#69BA7B;}
+	<!-- .st0{fill:#69BA7B;}
 	.st1{fill:#6ABA7B;}
 	.st2{fill:#6CBB7D;}
-	.st3{fill:#6EBB7E;}
+	.st3{fill:#6EBB7E;} -->
+	.st0{fill:#ffffff;}
+	.st1{fill:#ffffff;}
+	.st2{fill:#ffffff;}
+	.st3{fill:#ffffff;}
 </style>
 <g>
 	<path class="st0" d="M70.6,41.1c5.3,0,10.7-0.1,16,0c5.8,0.1,9.4,3.7,9.5,9.6c0.1,8.3,0.3,16.6-0.1,24.9
