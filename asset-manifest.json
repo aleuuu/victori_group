@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/victori_group/static/css/main.32b94e04.css",
-    "main.js": "/victori_group/static/js/main.53dddf92.js",
+    "main.css": "/victori_group/static/css/main.042d4fcd.css",
+    "main.js": "/victori_group/static/js/main.c1557917.js",
     "static/js/787.d4ddb485.chunk.js": "/victori_group/static/js/787.d4ddb485.chunk.js",
     "static/media/Группа Компаний _Виктори_ г. Тольятти.mp4": "/victori_group/static/media/Группа Компаний _Виктори_ г. Тольятти.9b57c9d520a06da39a2b.mp4",
     "static/media/1260.png": "/victori_group/static/media/1260.e6a273a85916168b5aef.png",
@@ -13,12 +13,12 @@
     "static/media/phone.svg": "/victori_group/static/media/phone.6ab0557153ae05acf29d845a89d61345.svg",
     "static/media/info.svg": "/victori_group/static/media/info.e91d293d8fa262160410731d6db2806c.svg",
     "static/media/line.svg": "/victori_group/static/media/line.c99ea1b4b885e21f1ecb3cfe24126a61.svg",
-    "main.32b94e04.css.map": "/victori_group/static/css/main.32b94e04.css.map",
-    "main.53dddf92.js.map": "/victori_group/static/js/main.53dddf92.js.map",
+    "main.042d4fcd.css.map": "/victori_group/static/css/main.042d4fcd.css.map",
+    "main.c1557917.js.map": "/victori_group/static/js/main.c1557917.js.map",
     "787.d4ddb485.chunk.js.map": "/victori_group/static/js/787.d4ddb485.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32b94e04.css",
-    "static/js/main.53dddf92.js"
+    "static/css/main.042d4fcd.css",
+    "static/js/main.c1557917.js"
   ]
 }
